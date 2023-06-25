@@ -1,0 +1,39 @@
+Dom ->Document object model(DOM)
+
+Bom ->Browser object model(Bom)
+
+
+Document object model(DOM)
+
+The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+targeting methods -> id,class,tag
+
+get and set value methods ->innerHTML,innerText,getAttribute,setAttribute etc.,
+add eventlistener
+DOM CSS ->style,className,classList
+
+Browser object model(BOM)
+
+The Browser Object Model (BOM) is a browser-specific convention referring to all the objects exposed by the web browser. The BOM allows JavaScript to “interact with” the browser. The object of the window represents a browser window and all its corresponding features.
+
+Window size
+Two properties can be used to determine the size of the browser window.
+
+Both properties return the sizes in pixels:
+
+window.innerHeight - the inner height of the browser window (in pixels)
+window.innerWidth - the inner width of the browser window (in pixels)
+
+
+Window Screen
+The window.screen object can be written without the window prefix.
+
+Properties:
+
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
